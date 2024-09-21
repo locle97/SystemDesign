@@ -4,8 +4,17 @@
 
 In this guideline, I will do my best to summarize what I am learning about system design interviews.
 
-In generally, the purpose of system design interview is taking a real world problem,
-breaking it out and try to design the core function of it.
+1. What is a System design interview?
+A system design interview is a conversation where the interviewer presents a real-world problem, often vague or open-ended. The interviewee is expected to clarify requirements, design an appropriate solution, and demonstrate their ability to architect a system at an application or system level.
+
+2. What is the Purpose of This Interview Session?
+
+The primary purposes of the system design interview are to assess the candidate’s:
+
+- **Communication skills**: Ability to discuss about complex concepts, asking clarify questions.
+- **Problem-solving skills**: Approach to breaking down the complex problem, identify the key components.
+- **Technical knowledge**: Understanding about system architecture, scalability, performance optimization, 
+and trades off between different design choises.
 
 ## Steps
 
