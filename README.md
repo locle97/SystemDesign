@@ -31,6 +31,21 @@ design phase focuses on creating a solution.
 1. Scalability
 
 - Throughput
+    - < 100 QPS:
+        - Single Node Database: A single node database can handle low QPS with minimal complexity.
+        - Simple Load Balancer: For application servers, a simple load balancer can distribute traffic across a few nodes
+    - 100 - 1,000 QPS:
+        - Database Replicas: Use read replicas to offload read traffic and improve read scalability.
+        - Caching Layer: Implement caching (e.g., Redis, Memcached) to reduce database load and improve response times for frequently accessed data.
+    - > 1,000 QPS:
+        - Sharding or Partitioning: Distribute data across multiple database shards to handle write-heavy loads.
+        - Advanced Load Balancing: Use techniques like consistent hashing to distribute traffic evenly across a large number of nodes.
+
+- Database types
+    - SQL
+    - NoSQL
+    - Graph
+
 - Storage capacity
 
 2. Performance
